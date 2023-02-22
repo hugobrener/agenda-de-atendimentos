@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+header {
+    background-color: #cecece;
+    padding: 20px;
+
+}
+
+.profissional {
+    gap: 20px;
+    height: 400px;
+
+    
+}
+
+.profissional ul {
+    display: flex;
+    justify-content: center;
+}
+
+.profissional li {
+    list-style: none;
+}
+
+.profissional h2 {
+    background-color: #cecece;
+    height: 80px;
+    text-align: center;
+
+        
+}
+
+.barbeiro {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: #e74949;
+    
+}
+
+.servico {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+
+.servico-escolha ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.servico-escolha li {
+
+    list-style: none;
+}
